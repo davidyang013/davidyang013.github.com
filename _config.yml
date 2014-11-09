@@ -5,17 +5,27 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
+#custom
+encoding: utf-8
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+  extensions: ["fenced_code_blocks", "tables"]
+
+safe: true
+lsi: false
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : PM 2.5
+tagline: 空气过敏症患者
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : David Yang
+  email : davidyang013@gmail.com
+  github : https://github.com/davidyang013
+  webchat : mail_tata
+  
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +35,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://davidyang013.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -69,7 +79,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  
+  index_path: /index.html
+#  archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
