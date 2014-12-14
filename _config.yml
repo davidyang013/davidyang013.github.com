@@ -18,12 +18,12 @@ lsi: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : PM 2.5
+title : PM2.5的博客
 tagline: 空气过敏症患者
 author :
   name : David Yang
   email : davidyang013@gmail.com
-  github : https://github.com/davidyang013
+  github : davidyang013
   webchat : mail_tata
   
 
@@ -81,7 +81,7 @@ JB :
   #
   
   index_path: /index.html
-#  archive_path: /archive.html
+  archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
@@ -127,7 +127,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : true
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

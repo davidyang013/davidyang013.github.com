@@ -1,44 +1,37 @@
 ---
 layout: page
 title:  首页
-tagline: 空气过敏症患者
+tagline: 恰同学少年，风华正茂，挥斥方遒
+group: navigation
+position: 1
 ---
 {% include JB/setup %}
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<!-- Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com) -->
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
+## Docker入门二
     
-    title : My Blog =)
+Docker的命令
+
+[Docker入门二]({{ BASE_PATH }}/tools/2014/12/15/docker-2/)
     
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## Docker入门一
 
-The theme should reference these variables whenever needed.
+最近半年断断续续的接触到Docker这个东西，听到同事讲，也有幸听到大神的分享，但是一直没有去花时间去好好学习和总结。当偶尔给其他同事分享的时候，发现其实对Docker的知识是缺少一个梳理和总结的。
     
-## Sample Posts
+[Docker入门一]({{ BASE_PATH }}/tools/2014/12/15/docker-1/)
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
-    $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
-
-<ul class="posts">
+<!-- <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-</ul>
+</ul> -->
 
-## To-Do
+<!-- ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+We need to clean up the themes, make theme usage guides with theme-specific markup examples. -->
 
 
