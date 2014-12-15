@@ -13,13 +13,15 @@ position: 1
     
 Docker的命令
 
-[Docker入门二]({{ BASE_PATH }}/tools/2014/12/15/docker-2/)
+&raquo;[Docker入门二]({{ BASE_PATH }}/tools/2014/12/15/docker-2/)
+ 
+* * *   
     
 ## Docker入门一
 
-最近半年断断续续的接触到Docker这个东西，听到同事讲，也有幸听到大神的分享，但是一直没有去花时间去好好学习和总结。当偶尔给其他同事分享的时候，发现其实对Docker的知识是缺少一个梳理和总结的。
+最近半年断断续续的接触到Docker这个东西，听到同事讲，也有幸听到大神的分享，但是一直没有去花时间去好好学习和总结。当偶尔给其他同事分享的时候，其实很需要对Docker的有一个梳理和总结的。
     
-[Docker入门一]({{ BASE_PATH }}/tools/2014/12/15/docker-1/)
+&raquo;[Docker入门一]({{ BASE_PATH }}/tools/2014/12/15/docker-1/)
 
 
 
