@@ -18,14 +18,51 @@ lsi: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : PM2.5的博客
-tagline: 空气过敏症患者
+title : David's Blog
+tagline: :-)
 author :
   name : David Yang
-  email : davidyang013@gmail.com
-  github : davidyang013
+
+#Information for the contacts showed at on the footer
+contact :
+  email : mailto:davidyang013@gmail.com
+  github : https://github.com/davidyang013
   webchat : mail_tata
-  
+
+# Links showed on the footer
+#
+links :
+  David's Blog : http://davidyang013.github.io/
+
+# The search engine. Only support google custom search engine.
+#
+#search : 
+#  provider : gcse
+
+# Your Google custom search engine ID
+#
+#  gcse :
+#    cx : 004255214185073801838:_icnlls8kds
+
+# The way of excerpt. There are two options: "teaser" and "truncate_words".
+# "teaser" option: look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
+#                  You must place "<!--more-->" at paragraph in post. The whole content will be displayed in homepage if no More tag found in post.
+# "truncate_words" option: generate an excerpt automatically by selecting the first 20 words of the post. It doesn't work well in some of no-English post.
+#
+excerpt : teaser
+
+# The number of items displayed per page.
+#
+paginate : 5
+
+# The destination of the pagination pages
+#
+paginate_path : ":num"
+
+# Whether to enable load more post automatically in homepage. Set 'true' to enable. Set 'false' to disable.
+# You must click the 'load more' button to load more posts when it is set to 'false'.
+#
+auto_loadmore : true  
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -79,22 +116,25 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  
+
   index_path: /index.html
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+  about_path : /about.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : duoshuo
+    duoshuo :
+      short_name ：davidyang013
     disqus :
-      short_name : jekyllbootstrap
+      short_name : davidyang013
     livefyre :
       site_id : 123
     intensedebate :
@@ -104,7 +144,7 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
@@ -128,7 +168,7 @@ JB :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -139,4 +179,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
