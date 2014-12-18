@@ -22,6 +22,21 @@
 				{% include themes/Snail/tags_list %}
 				</div>
 			</div>
+			<div class="pagination">
+               <ul>
+                   {% if page.previous %}
+                    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一页</a></li>
+                   {% else %}
+                    <li class="prev disabled"><a>&larr; 上一页</a></li>
+                   {% endif %}
+                    <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">目录</a></li>
+                   {% if page.next %}
+                    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一页 &rarr;</a></li>
+                   {% else %}
+                    <li class="next disabled"><a>下一页 &rarr;</a>
+                   {% endif %}
+               </ul>
+            </div>
 		</div>
 		<div class="clearboth"></div>
 	</div>
